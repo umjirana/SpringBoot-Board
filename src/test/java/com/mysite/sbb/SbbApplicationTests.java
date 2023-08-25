@@ -32,12 +32,12 @@ class SbbApplicationTests {
 		Question q1 = new Question();
 		q1.setSubject("what is SBB?");
 		q1.setContent("Teach me about SBB");
-		q1.setCreate_date(LocalDateTime.now());
+		q1.setCreateDate(LocalDateTime.now());
 
 		Question q2 = new Question();
 		q2.setSubject("how ID is generate?");
 		q2.setContent("generate using Identity option or sequence");
-		q2.setCreate_date(LocalDateTime.now());
+		q2.setCreateDate(LocalDateTime.now());
 
 		// 데이터베이스 저장
 		questionRepository.save(q1);

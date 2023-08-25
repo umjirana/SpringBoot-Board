@@ -23,14 +23,13 @@ public class Question {
     @Column(columnDefinition = "TEXT", length = 2048)
     private String content;
 
-    private LocalDateTime create_date;
+    private LocalDateTime createDate;
 
     public List<Answer> getAnswerList() {
         List<Answer> answerList = new ArrayList<>();  // 또는 다른 List 구현체를 사용할 수 있습니다.
         // 필요한 로직을 통해 answerList에 데이터를 추가하거나 초기화합니다.
         return answerList;
     }
-
 
 }
 
