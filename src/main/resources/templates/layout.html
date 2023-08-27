@@ -11,9 +11,10 @@
     <title>Hello, sbb!</title>
 </head>
 <body>
+<nav th:replace="~{navbar :: navbarFragment}"></nav>
 <div layout:fragment="content">
     <!-- 내용이 채워질 영역 -->
 </div>
-
+<script th:src="@{/bootstrap.min.js}"></script>
 </body>
 </html>
